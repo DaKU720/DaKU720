@@ -1,4 +1,4 @@
-<!-- Profile README with Dark Background -->
+<!-- Profile README with Dark Backgrouund -->
 
 <!-- GitHub Stats Section -->
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=daku720&show_icons=true&theme=dark)
