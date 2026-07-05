@@ -1,6 +1,4 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1500&color=00FF00&background=00000000&vCenter=true&width=650&lines=root@daku720:~%23+nmap+-sS+-sC+-sV+10.13.37.1;Discovered+open+port+22%2Ftcp...;[!]+ALERT:+TRAFFIC+INTERCEPTED+BY+[REDACTED];root@daku720:~%23+shred+-uz+%2Fvar%2Flog%2F*)](https://git.io/typing-svg)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daku720&layout=compact&bg_color=0d1117&title_color=00ff00&text_color=00ff00&icon_color=00ff00&border_color=00ff00)](https://github.com/daku720)
 #
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&color=FF8C00&vCenter=true&width=350&repeat=false&lines=root@daku720:~/Programming$)](https://git.io/typing-svg)
 
