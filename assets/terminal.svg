@@ -1,58 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="336" viewBox="0 0 720 336" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="364" viewBox="0 0 720 364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15">
 <style>
 .scene{animation:fade 16s infinite}
-#c1,#c2,#c3,#bar{animation-duration:16s;animation-iteration-count:infinite}
-#c1{animation-name:c1}#c2{animation-name:c2}#c3{animation-name:c3}#bar{animation-name:bar}
-.o1{animation:o1 16s infinite}.o2{animation:o2 16s infinite}
-.plan{animation:plan 16s infinite}.k1{animation:k1 16s infinite}.k2{animation:k2 16s infinite}.k3{animation:k3 16s infinite}.k4{animation:k4 16s infinite}.auto{animation:auto 16s infinite}
+#c0,#c1,#c2,#c3,.cur,#bar{animation-duration:16s;animation-iteration-count:infinite}
+#c0{animation-name:c0}#c1{animation-name:c1}#c2{animation-name:c2}#c3,.cur{animation-name:c3}#bar{animation-name:bar}
+.ui{animation:ui 16s infinite}.t1{animation:t1 16s infinite}.t2{animation:t2 16s infinite}.t3{animation:t3 16s infinite}.o1{animation:o1 16s infinite}.o2{animation:o2 16s infinite}
+.plan{animation:plan 16s infinite}.p0{animation:p0 16s infinite}.p1{animation:p1 16s infinite}.p2{animation:p2 16s infinite}.p3{animation:p3 16s infinite}.p4{animation:p4 16s infinite}.p5{animation:p5 16s infinite}.p6{animation:p6 16s infinite}.p7{animation:p7 16s infinite}.p8{animation:p8 16s infinite}.p9{animation:p9 16s infinite}.p10{animation:p10 16s infinite}.p11{animation:p11 16s infinite}.p12{animation:p12 16s infinite}.auto{animation:am 16s infinite}
 @keyframes fade{0%,94%{opacity:1}98%,100%{opacity:0}}
+@keyframes c0{0%,1%{transform:translateX(0);animation-timing-function:steps(6,end)}4%,100%{transform:translateX(54px)}}
+@keyframes ui{0%,4.9%{opacity:0}5%,100%{opacity:1}}
+@keyframes t1{0%,5.9%{opacity:0}6%,100%{opacity:1}}
+@keyframes t2{0%,21.9%{opacity:0}22%,100%{opacity:1}}
+@keyframes t3{0%,53.9%{opacity:0}54%,100%{opacity:1}}
 @keyframes c1{0%,6%{transform:translateX(0);animation-timing-function:steps(6,end)}12%,100%{transform:translateX(54px)}}
 @keyframes c2{0%,22%{transform:translateX(0);animation-timing-function:steps(10,end)}30%,100%{transform:translateX(90px)}}
 @keyframes c3{0%,54%{transform:translateX(0);animation-timing-function:steps(30,end)}80%,100%{transform:translateX(270px)}}
-@keyframes bar{0%,14%{transform:translateX(12px)}16%,33%{transform:translateX(48px)}35%,80%{transform:translateX(81px)}83%,100%{transform:translateX(126px)}}
+@keyframes bar{0%,11.9%{transform:translateX(9.6px)}12%,18.9%{transform:translateX(16.8px)}19%,25.9%{transform:translateX(24px)}26%,32.9%{transform:translateX(31.2px)}33%,39.9%{transform:translateX(38.4px)}40%,46.9%{transform:translateX(45.6px)}47%,53.9%{transform:translateX(52.8px)}54%,60.9%{transform:translateX(60px)}61%,67.9%{transform:translateX(67.2px)}68%,74.9%{transform:translateX(74.4px)}75%,81.9%{transform:translateX(81.6px)}82%,88.9%{transform:translateX(88.8px)}89%,100%{transform:translateX(96px)}}
 @keyframes o1{0%,14.9%{opacity:0}15%,100%{opacity:1}}
 @keyframes o2{0%,33.9%{opacity:0}34%,100%{opacity:1}}
 @keyframes plan{0%,45.9%{opacity:1}46%,100%{opacity:0}}
-@keyframes auto{0%,45.9%{opacity:0}46%,100%{opacity:1}}
-@keyframes k1{0%,14.9%{opacity:1}15%,100%{opacity:0}}
-@keyframes k2{0%,14.9%{opacity:0}15%,34.9%{opacity:1}35%,100%{opacity:0}}
-@keyframes k3{0%,34.9%{opacity:0}35%,81.9%{opacity:1}82%,100%{opacity:0}}
-@keyframes k4{0%,81.9%{opacity:0}82%,100%{opacity:1}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}#c1,#c2,#c3,.plan,.k1,.k2,.k3{opacity:0}}
+@keyframes am{0%,45.9%{opacity:0}46%,100%{opacity:1}}
+@keyframes p0{0%,11.9%{opacity:1}12%,100%{opacity:0}}
+@keyframes p1{0%,11.9%{opacity:0}12%,18.9%{opacity:1}19%,100%{opacity:0}}
+@keyframes p2{0%,18.9%{opacity:0}19%,25.9%{opacity:1}26%,100%{opacity:0}}
+@keyframes p3{0%,25.9%{opacity:0}26%,32.9%{opacity:1}33%,100%{opacity:0}}
+@keyframes p4{0%,32.9%{opacity:0}33%,39.9%{opacity:1}40%,100%{opacity:0}}
+@keyframes p5{0%,39.9%{opacity:0}40%,46.9%{opacity:1}47%,100%{opacity:0}}
+@keyframes p6{0%,46.9%{opacity:0}47%,53.9%{opacity:1}54%,100%{opacity:0}}
+@keyframes p7{0%,53.9%{opacity:0}54%,60.9%{opacity:1}61%,100%{opacity:0}}
+@keyframes p8{0%,60.9%{opacity:0}61%,67.9%{opacity:1}68%,100%{opacity:0}}
+@keyframes p9{0%,67.9%{opacity:0}68%,74.9%{opacity:1}75%,100%{opacity:0}}
+@keyframes p10{0%,74.9%{opacity:0}75%,81.9%{opacity:1}82%,100%{opacity:0}}
+@keyframes p11{0%,81.9%{opacity:0}82%,88.9%{opacity:1}89%,100%{opacity:0}}
+@keyframes p12{0%,88.9%{opacity:0}89%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.typed{clip-path:none}.cur,.plan,.p0,.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,.p11{opacity:0}}
 </style>
 <defs>
 <pattern id="on" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#7fbf4f"/></pattern>
 <pattern id="off" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#2e3b28"/></pattern>
+<clipPath id="k0"><rect id="c0" x="10" y="19" width="54" height="20"/></clipPath>
+<clipPath id="kc1"><rect id="c1" x="-8" y="81" width="54" height="20"/></clipPath>
+<clipPath id="kc2"><rect id="c2" x="-44" y="143" width="90" height="20"/></clipPath>
+<clipPath id="kc3"><rect id="c3" x="-224" y="251" width="270" height="20"/></clipPath>
+<clipPath id="kbar"><rect x="221" y="296" width="120" height="20"/></clipPath>
 </defs>
-<rect x="1" y="1" width="718" height="334" rx="10" fill="#1e1e1e" stroke="#333"/>
 <g class="scene">
-  <text x="28" y="40" fill="#6e6e6e">Opus 5.5</text>
-  <text x="116" y="40" fill="#8fd14f">[</text>
-  <rect x="129" y="30" width="159" height="12" fill="url(#on)"/>
-  <rect id="bar" x="129" y="30" width="159" height="12" fill="url(#off)"/>
-  <rect x="289" y="26" width="140" height="20" fill="#1e1e1e"/>
-  <text x="291" y="40" fill="#8fd14f">]</text>
-  <g fill="#6e6e6e"><text class="k1" x="306" y="40">8% context</text><text class="k2" x="306" y="40">30% context</text><text class="k3" x="306" y="40">51% context</text><text class="k4" x="306" y="40">79% context</text></g>
-  <path d="M20 60H700M20 236H700M20 284H700" stroke="#3a3a3a"/>
+  <text x="28" y="34" fill="#8fd14f">~ $</text>
+  <text class="typed" clip-path="url(#k0)" x="64" y="34" fill="#e8e8e8" textLength="54" lengthAdjust="spacingAndGlyphs">claude</text>
+  <g class="ui" transform="translate(0 8)">
+  <text x="28" y="52" fill="#D97757">✻ <tspan fill="#a9a9a9">Welcome to</tspan> Claude Code</text>
+  <path d="M20 236H700M20 284H700" stroke="#3a3a3a"/>
   <path d="M29 87l5 4.5-5 4.5M29 149l5 4.5-5 4.5M29 257l5 4.5-5 4.5" fill="none" stroke="#e8e8e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="46" y="96" fill="#e8e8e8" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
-  <rect id="c1" x="46" y="81" width="54" height="20" fill="#1e1e1e"/>
+  <text class="typed t1" clip-path="url(#kc1)" x="46" y="96" fill="#e8e8e8" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
   <text class="o1" x="46" y="122" fill="#a9a9a9">daku720 · <tspan fill="#D97757">ai builder</tspan></text>
-  <text x="46" y="158" fill="#e8e8e8" textLength="90" lengthAdjust="spacingAndGlyphs">ls ~/stack</text>
-  <rect id="c2" x="46" y="143" width="90" height="20" fill="#1e1e1e"/>
-  <text class="o2" x="46" y="184" fill="#a9a9a9">claude code · mcp · agents · rag · llm ops</text>
-  <text x="46" y="266" fill="#e8e8e8" textLength="270" lengthAdjust="spacingAndGlyphs">build it. make no mistakes pls</text>
-  <g id="c3">
-    <rect x="46" y="251" width="270" height="20" fill="#1e1e1e"/>
-    <rect x="46" y="253" width="9" height="17" fill="#e8e8e8" opacity=".8"/>
-  </g>
+  <text class="typed t2" clip-path="url(#kc2)" x="46" y="158" fill="#e8e8e8" textLength="90" lengthAdjust="spacingAndGlyphs">ls ~/stack</text>
+  <text class="o2" x="46" y="184" fill="#a9a9a9">claude code · hermes · mcp · rag · fine-tuning</text>
+  <text class="typed t3" clip-path="url(#kc3)" x="46" y="266" fill="#e8e8e8" textLength="270" lengthAdjust="spacingAndGlyphs">build it. make no mistakes pls</text>
+  <rect class="cur" x="46" y="253" width="9" height="17" fill="#e8e8e8" opacity=".8"/>
+  <text x="46" y="310" fill="#6e6e6e">Opus 5.5</text>
+  <text x="136" y="310" fill="#6e6e6e">master</text>
+  <text x="208" y="310" fill="#8fd14f">[</text>
+  <rect x="221" y="300" width="120" height="12" fill="url(#on)"/>
+  <g clip-path="url(#kbar)"><rect id="bar" x="221" y="300" width="120" height="12" fill="url(#off)"/></g>
+  <text x="343" y="310" fill="#8fd14f">]</text>
+  <g fill="#a9a9a9"><text class="p0" x="360" y="310">8%</text><text class="p1" x="360" y="310">14%</text><text class="p2" x="360" y="310">20%</text><text class="p3" x="360" y="310">26%</text><text class="p4" x="360" y="310">32%</text><text class="p5" x="360" y="310">38%</text><text class="p6" x="360" y="310">44%</text><text class="p7" x="360" y="310">50%</text><text class="p8" x="360" y="310">56%</text><text class="p9" x="360" y="310">62%</text><text class="p10" x="360" y="310">68%</text><text class="p11" x="360" y="310">74%</text><text class="p12" x="360" y="310">80%</text></g>
+  <text x="405" y="310" fill="#6e6e6e">5h 11%</text>
+  <g fill="#6e6e6e"><text class="p0" x="477" y="310">$0.12</text><text class="p1" x="477" y="310">$0.23</text><text class="p2" x="477" y="310">$0.43</text><text class="p3" x="477" y="310">$0.81</text><text class="p4" x="477" y="310">$1.53</text><text class="p5" x="477" y="310">$2.90</text><text class="p6" x="477" y="310">$5.48</text><text class="p7" x="477" y="310">$10.35</text><text class="p8" x="477" y="310">$19.57</text><text class="p9" x="477" y="310">$37.00</text><text class="p10" x="477" y="310">$69.95</text><text class="p11" x="477" y="310">$132.24</text><text class="p12" x="477" y="310">$249.99</text></g>
   <g class="plan" fill="#48968c">
-    <rect x="30" y="304" width="3" height="11" rx="1"/><rect x="36" y="304" width="3" height="11" rx="1"/>
-    <text x="52" y="314">plan mode on <tspan fill="#6e6e6e">(shift+tab to cycle)</tspan></text>
+    <rect x="48" y="326" width="3" height="11" rx="1"/><rect x="54" y="326" width="3" height="11" rx="1"/>
+    <text x="70" y="336">plan mode on <tspan fill="#a9a9a9">(shift+tab to cycle)</tspan></text>
   </g>
   <g class="auto" fill="#f2b33d">
-    <path d="M29 304l6 5.5-6 5.5zM36 304l6 5.5-6 5.5z"/>
-    <text x="52" y="314">auto mode on <tspan fill="#6e6e6e">(shift+tab to cycle)</tspan></text>
+    <path d="M47 326l6 5.5-6 5.5zM54 326l6 5.5-6 5.5z"/>
+    <text x="70" y="336">auto mode on <tspan fill="#a9a9a9">(shift+tab to cycle)</tspan></text>
   </g>
+</g>
 </g>
 </svg>
