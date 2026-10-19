@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="336" viewBox="0 0 720 336" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15">
+<style>
+.scene{animation:fade 16s infinite}
+#c1,#c2,#c3,#bar{animation-duration:16s;animation-iteration-count:infinite}
+#c1{animation-name:c1}#c2{animation-name:c2}#c3{animation-name:c3}#bar{animation-name:bar}
+.o1{animation:o1 16s infinite}.o2{animation:o2 16s infinite}
+.plan{animation:plan 16s infinite}.auto{animation:auto 16s infinite}
+@keyframes fade{0%,94%{opacity:1}98%,100%{opacity:0}}
+@keyframes c1{0%,6%{transform:translateX(0);animation-timing-function:steps(6,end)}12%,100%{transform:translateX(54px)}}
+@keyframes c2{0%,22%{transform:translateX(0);animation-timing-function:steps(10,end)}30%,100%{transform:translateX(90px)}}
+@keyframes c3{0%,54%{transform:translateX(0);animation-timing-function:steps(30,end)}80%,100%{transform:translateX(270px)}}
+@keyframes bar{0%,14%{transform:translateX(12px)}16%,33%{transform:translateX(48px)}35%,80%{transform:translateX(81px)}83%,100%{transform:translateX(126px)}}
+@keyframes o1{0%,14.9%{opacity:0}15%,100%{opacity:1}}
+@keyframes o2{0%,33.9%{opacity:0}34%,100%{opacity:1}}
+@keyframes plan{0%,45.9%{opacity:1}46%,100%{opacity:0}}
+@keyframes auto{0%,45.9%{opacity:0}46%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}#c1,#c2,#c3,.plan{opacity:0}}
+</style>
+<defs>
+<pattern id="on" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#7fbf4f"/></pattern>
+<pattern id="off" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#2e3b28"/></pattern>
+</defs>
+<rect x="1" y="1" width="718" height="334" rx="10" fill="#1e1e1e" stroke="#333"/>
+<g class="scene">
+  <text x="28" y="40" fill="#6e6e6e">Opus 5.5</text>
+  <text x="116" y="40" fill="#8fd14f">[</text>
+  <rect x="129" y="30" width="159" height="12" fill="url(#on)"/>
+  <rect id="bar" x="129" y="30" width="159" height="12" fill="url(#off)"/>
+  <rect x="289" y="26" width="140" height="20" fill="#1e1e1e"/>
+  <text x="291" y="40" fill="#8fd14f">]</text>
+  <path d="M20 60H700M20 236H700M20 284H700" stroke="#3a3a3a"/>
+  <path d="M29 87l5 4.5-5 4.5M29 149l5 4.5-5 4.5M29 257l5 4.5-5 4.5" fill="none" stroke="#e8e8e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="46" y="96" fill="#e8e8e8" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
+  <rect id="c1" x="46" y="81" width="54" height="20" fill="#1e1e1e"/>
+  <text class="o1" x="46" y="122" fill="#a9a9a9">daku720 · <tspan fill="#D97757">ai builder</tspan></text>
+  <text x="46" y="158" fill="#e8e8e8" textLength="90" lengthAdjust="spacingAndGlyphs">ls ~/stack</text>
+  <rect id="c2" x="46" y="143" width="90" height="20" fill="#1e1e1e"/>
+  <text class="o2" x="46" y="184" fill="#a9a9a9">claude code · mcp · agents · rag · python</text>
+  <text x="46" y="266" fill="#e8e8e8" textLength="270" lengthAdjust="spacingAndGlyphs">build it. make no mistakes pls</text>
+  <g id="c3">
+    <rect x="46" y="251" width="270" height="20" fill="#1e1e1e"/>
+    <rect x="46" y="253" width="9" height="17" fill="#e8e8e8" opacity=".8"/>
+  </g>
+  <g class="plan" fill="#5fa9a3">
+    <rect x="30" y="304" width="3" height="11" rx="1"/><rect x="36" y="304" width="3" height="11" rx="1"/>
+    <text x="52" y="314">plan mode on <tspan fill="#6e6e6e">(shift+tab to cycle)</tspan></text>
+  </g>
+  <g class="auto" fill="#f2b33d">
+    <path d="M29 304l6 5.5-6 5.5zM36 304l6 5.5-6 5.5z"/>
+    <text x="52" y="314">auto mode on <tspan fill="#6e6e6e">(shift+tab to cycle)</tspan></text>
+  </g>
+</g>
+</svg>
