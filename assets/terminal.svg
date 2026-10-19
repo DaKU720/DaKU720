@@ -51,7 +51,7 @@
   <path d="M20 236H700M20 284H700" stroke="#3a3a3a"/>
   <path d="M29 87l5 4.5-5 4.5M29 149l5 4.5-5 4.5M29 257l5 4.5-5 4.5" fill="none" stroke="#e8e8e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <text class="typed t1" clip-path="url(#kc1)" x="46" y="96" fill="#e8e8e8" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
-  <text class="o1" x="46" y="122" fill="#a9a9a9">daku720 · <tspan fill="#D97757">ai builder</tspan></text>
+  <text class="o1" x="46" y="122" fill="#a9a9a9">Dawid Alan K. · <tspan fill="#D97757">ai builder</tspan></text>
   <text class="typed t2" clip-path="url(#kc2)" x="46" y="158" fill="#e8e8e8" textLength="90" lengthAdjust="spacingAndGlyphs">ls ~/stack</text>
   <text class="o2" x="46" y="184" fill="#a9a9a9">claude code · hermes · mcp · rag · fine-tuning</text>
   <text class="typed t3" clip-path="url(#kc3)" x="46" y="266" fill="#e8e8e8" textLength="270" lengthAdjust="spacingAndGlyphs">build it. make no mistakes pls</text>
