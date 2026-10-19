@@ -1,18 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15">
 <style>
 .scene{animation:fade 16s infinite}
-#c0,#c1,#c2,#c3,.cur,#bar{animation-duration:16s;animation-iteration-count:infinite}
-#c0{animation-name:c0}#c1{animation-name:c1}#c2{animation-name:c2}#c3,.cur{animation-name:c3}#bar{animation-name:bar}
-.sh{animation:sh 16s infinite}.ui{animation:ui 16s infinite}.t1{animation:t1 16s infinite}.t2{animation:t2 16s infinite}.t3{animation:t3 16s infinite}.o1{animation:o1 16s infinite}.o2{animation:o2 16s infinite}
+#c1,#c2,#c3,.cur,#bar{animation-duration:16s;animation-iteration-count:infinite}
+#c1{animation-name:c1}#c2{animation-name:c2}#c3,.cur{animation-name:c3}#bar{animation-name:bar}
+.t1{animation:t1 16s infinite}.t2{animation:t2 16s infinite}.t3{animation:t3 16s infinite}.o1{animation:o1 16s infinite}.o2{animation:o2 16s infinite}
 .plan{animation:plan 16s infinite}.p0{animation:p0 16s infinite}.p1{animation:p1 16s infinite}.p2{animation:p2 16s infinite}.p3{animation:p3 16s infinite}.p4{animation:p4 16s infinite}.p5{animation:p5 16s infinite}.p6{animation:p6 16s infinite}.p7{animation:p7 16s infinite}.p8{animation:p8 16s infinite}.p9{animation:p9 16s infinite}.p10{animation:p10 16s infinite}.p11{animation:p11 16s infinite}.p12{animation:p12 16s infinite}.auto{animation:am 16s infinite}
 @keyframes fade{0%,94%{opacity:1}98%,100%{opacity:0}}
-@keyframes c0{0%,1%{transform:translateX(0);animation-timing-function:steps(6,end)}4%,100%{transform:translateX(54px)}}
-@keyframes sh{0%,6.9%{opacity:1}7%,100%{opacity:0}}
-@keyframes ui{0%,6.9%{opacity:0}7%,100%{opacity:1}}
-@keyframes t1{0%,8.9%{opacity:0}9%,100%{opacity:1}}
+@keyframes t1{0%,2.9%{opacity:0}3%,100%{opacity:1}}
 @keyframes t2{0%,21.9%{opacity:0}22%,100%{opacity:1}}
 @keyframes t3{0%,53.9%{opacity:0}54%,100%{opacity:1}}
-@keyframes c1{0%,9%{transform:translateX(0);animation-timing-function:steps(6,end)}14%,100%{transform:translateX(54px)}}
+@keyframes c1{0%,3%{transform:translateX(0);animation-timing-function:steps(6,end)}9%,100%{transform:translateX(54px)}}
 @keyframes c2{0%,22%{transform:translateX(0);animation-timing-function:steps(10,end)}30%,100%{transform:translateX(90px)}}
 @keyframes c3{0%,54%{transform:translateX(0);animation-timing-function:steps(30,end)}80%,100%{transform:translateX(270px)}}
 @keyframes bar{0%,11.9%{transform:translateX(9.6px)}12%,18.9%{transform:translateX(16.8px)}19%,25.9%{transform:translateX(24px)}26%,32.9%{transform:translateX(31.2px)}33%,39.9%{transform:translateX(38.4px)}40%,46.9%{transform:translateX(45.6px)}47%,53.9%{transform:translateX(52.8px)}54%,60.9%{transform:translateX(60px)}61%,67.9%{transform:translateX(67.2px)}68%,74.9%{transform:translateX(74.4px)}75%,81.9%{transform:translateX(81.6px)}82%,88.9%{transform:translateX(88.8px)}89%,100%{transform:translateX(96px)}}
@@ -38,18 +35,12 @@
 <defs>
 <pattern id="on" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#7fbf4f"/></pattern>
 <pattern id="off" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#2e3b28"/></pattern>
-<clipPath id="k0"><rect id="c0" x="10" y="19" width="54" height="20"/></clipPath>
 <clipPath id="kc1"><rect id="c1" x="-8" y="81" width="54" height="20"/></clipPath>
 <clipPath id="kc2"><rect id="c2" x="-44" y="143" width="90" height="20"/></clipPath>
 <clipPath id="kc3"><rect id="c3" x="-224" y="251" width="270" height="20"/></clipPath>
 <clipPath id="kbar"><rect x="221" y="296" width="120" height="20"/></clipPath>
 </defs>
 <g class="scene">
-  <g class="sh">
-  <text x="28" y="34" fill="#8fd14f">~ $</text>
-  <text class="typed" clip-path="url(#k0)" x="64" y="34" fill="#e8e8e8" textLength="54" lengthAdjust="spacingAndGlyphs">claude</text>
-  </g>
-  <g class="ui">
   <g fill="#D97757">
     <rect x="32" y="18" width="48" height="27"/><rect x="28" y="25" width="4" height="7"/><rect x="80" y="25" width="4" height="7"/>
     <rect x="32" y="48" width="3" height="5"/><rect x="38" y="48" width="3" height="5"/><rect x="69" y="48" width="3" height="5"/><rect x="75" y="48" width="3" height="5"/>
@@ -60,8 +51,8 @@
   <text x="104" y="65" fill="#8a8a8a">~/production/no-backups</text>
   <g transform="translate(0 24)">
   <path d="M20 236H700M20 284H700" stroke="#3a3a3a"/>
-  <text x="28" y="158" fill="#fd5db1" font-weight="bold">!</text>
-  <path d="M29 87l5 4.5-5 4.5M29 257l5 4.5-5 4.5" fill="none" stroke="#e8e8e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="t2" x="28" y="158" fill="#fd5db1" font-weight="bold">!</text>
+  <g fill="none" stroke="#e8e8e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="t1" d="M29 87l5 4.5-5 4.5"/><path d="M29 257l5 4.5-5 4.5"/></g>
   <text class="typed t1" clip-path="url(#kc1)" x="46" y="96" fill="#e8e8e8" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
   <text class="o1" x="46" y="122" fill="#a9a9a9">Dawid Alan K. · <tspan fill="#D97757">ai builder</tspan></text>
   <text class="typed t2" clip-path="url(#kc2)" x="46" y="158" fill="#e8e8e8" textLength="90" lengthAdjust="spacingAndGlyphs">ls ~/stack</text>
@@ -85,7 +76,6 @@
     <path d="M47 326l6 5.5-6 5.5zM54 326l6 5.5-6 5.5z"/>
     <text x="70" y="336">auto mode on <tspan fill="#a9a9a9">(shift+tab to cycle)</tspan></text>
   </g>
-</g>
 </g>
 </g>
 </svg>
